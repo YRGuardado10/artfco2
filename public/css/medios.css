@@ -1,0 +1,187 @@
+body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.container-heading{
+    color: #5A844E; 
+}
+.fuente{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+.container-btn1 button:hover, .container-btn2 button:hover{
+    background-color: #235b4e91;
+    color: #FFFFFF;
+}
+.container-btn1 button, .container-btn2 button{
+    border-radius: 4px;
+    border: 2px solid #235B4E;
+    text-align:center; 
+    color: #235B4E;
+    background-color: transparent;
+}
+.ctn{
+    text-align:center;
+    color:#5A844E;
+}
+@media (min-width: 300px) {
+    .container-heading{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top:5%;
+        padding-bottom:5%;
+    }
+    .container-info .heading{
+        font-style:italic;
+        padding-left: 5%;
+        padding-right: 8%;
+        padding-bottom:5%;
+    }
+    .container-info .paragraph{
+        padding-top:5%;
+        padding-left: 5%;
+        padding-right: 8%;
+        padding-bottom:5%;
+    }
+    .container-image img, .container-image2 img{
+        width:100%;
+        height:253px; 
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-bottom:0%;
+    }
+    .container-info2 .paragraph{
+        padding-left: 5%;
+        padding-right: 8%;
+        padding-bottom:5%;
+    }
+    .fuente{
+        padding-left: 5%;
+        padding-right: 8%;
+        padding-bottom:5%;
+    }
+    .container-btn1{
+        padding-left: 5%;
+        padding-right: 8%;
+        padding-bottom: 5%;
+    }
+    .container-btn2{
+        padding-left: 5%;
+        padding-right: 8%;
+        padding-bottom: 5%;
+        }
+    .container-btn1 a, .container-btn2 a{
+        padding-bottom:5% ;
+        width:100%;
+    }
+    .container-btn1 button, .container-btn2 button{
+        width:100%;
+        padding-bottom:5%;
+    }
+    .ctn{
+        padding-left: 5%;
+        padding-right: 8%;
+        padding-bottom:5% ;
+    }
+}
+@media (min-width:992px) {
+    .container-heading{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .container-info{
+        width:50%;
+    }
+    .container-info .heading{
+        width: 100%;
+        padding-left: 28%;
+        padding-right: 15%;
+        padding-bottom: 1%;
+        float: left;
+    }
+    .container-info .paragraph{
+        width: 100%;
+        padding-top: 1%;
+        padding-left: 28%;
+        padding-right: 15%;
+        padding-bottom: 6%;
+        float: left;
+    }
+    .container-image{
+        float: right;
+        width:50%;
+        height: 400px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 3%;
+        padding-right: 10%;
+    }
+    .container-image img{
+        height: 70%;
+    }
+    .container-info2{
+        float: right;
+        width:50%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-right: 10%;
+        padding-left:3%;
+    }
+    .fuente{
+        width: 50%;
+        padding-left: 5%;
+        padding-right: 15%;
+        padding-bottom: 1%;
+        float: right;
+    }
+    .ctn{
+        float: right;
+        width: 50%;
+        padding-right: 15%;
+        color:#5A844E;
+        padding-bottom: 0%;
+    }
+    .container-btn1{
+        width: 50%;
+        padding-top: 2%;
+        padding-left: 5%;
+        padding-right: 15%;
+        padding-bottom: 0%;
+        float: right;
+    }
+    .container-btn2{
+        width: 50%;
+        padding-top: 2%;
+        padding-left: 5%;
+        padding-right: 15%;
+        padding-bottom: 0%;
+        float: right;
+        }
+    .container-btn1 a, .container-btn2 a{
+        padding-bottom:0% ;
+        width: 100%;
+    }
+    .container-btn1 button, .container-btn2 button{
+        width: 100%;
+        padding-bottom:5%;
+    }
+    .container-image2{
+        clear: both;
+        position: absolute;
+        top: 220%;
+        width: 100%;
+        height:80%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .container-image2 img{
+        height: 450px;
+    }
+}

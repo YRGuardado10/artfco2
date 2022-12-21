@@ -1,0 +1,235 @@
+@media (min-width: 300px){
+    .section1 .heading{
+        padding-left: 30%;
+        padding-top: 3%;
+        color: darkgreen;
+    }
+    .section2 .formulario{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 4%;
+    }
+    .section2 form{
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        border-radius: 4px;
+    }
+    .consulta{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .kiloanual{
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .kiloanual .heading{
+        padding-bottom: 2%;
+    } 
+    .text{
+        width: 100%;
+    }
+    .numkm{
+        padding-left: 3%;
+        padding-bottom: 2%;
+        padding-right: 3%;
+    }
+    .numkm .heading{
+        padding-bottom: 2%;
+    } 
+    .vehiclemodel{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+    .vehiclemodel .heading{
+        padding-bottom: 2%;
+    } 
+    .txts{
+        width: 100%;
+        padding-left: 3%;
+        padding-bottom: 2%;
+    }
+    .txts .heading{
+        padding-bottom: 2%;
+    } 
+    .txts .number{
+        width: 100%;
+        padding-bottom: 2%;
+        padding-right: 3%;
+    } 
+    .btncom{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+    .btncom a{
+        text-decoration: none;
+        width: 100%;
+    }
+    .btncom button{
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        height: 40px;
+        padding-left: 45%;
+        padding-right: 45%;
+        border: 2px solid #235B4E;
+        border-radius: 4px;
+        align-items: center;
+        background-color: transparent;
+    }
+    .btncom a button:hover{
+        background-color: #235b4e86;
+        color: #FFFFFF;
+    }
+    .btncom input{
+        width: 100%;
+    }
+    .section3{
+        padding-bottom: 5%;
+    }
+    .section3 .formulario{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 4%;
+    }
+    .section3 form{
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        border-radius: 4px;
+    }
+    .section3 h2{
+        color: #cc4a4a;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .section3 p{
+        color: darkgreen;
+        font-size: 30px;
+        padding-top: 1%;
+        padding-left: 40%;
+        padding-right:40%;
+    }
+}
+@media (min-width: 992px){
+    .section1 .heading{
+        padding-left: 30%;
+        padding-top: 3%;
+        color: darkgreen;
+    }
+    .section2{
+        width: 100%;
+        padding-bottom: 4%;
+    }
+    .section2 .formulario{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 4%;
+    }
+    .section2 form{
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        border-radius: 4px;
+    }
+    .kiloanual{
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .kiloanual .heading{
+        padding-bottom: 2%;
+    } 
+    .text{
+        width: 40%;
+    }
+    .numkm{
+        padding-left: 3%;
+        padding-bottom: 2%;
+    }
+    .numkm .heading{
+        padding-bottom: 2%;
+    } 
+    .vehiclemodel .heading{
+        padding-bottom: 2%;
+    } 
+    .model{
+        width: 60%;
+    } 
+    .txts{
+        width: 100%;
+        padding-left: 3%;
+        padding-bottom: 2%;
+    }
+    .txts .heading{
+        padding-bottom: 2%;
+    } 
+    .txts .number{
+        width: 100%;
+        padding-bottom: 2%;
+    } 
+    .btncom{
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .btncom a{
+        text-decoration: none;
+        width: 100%;
+    }
+    .btncom button{
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        height: 40px;
+        padding-left: 45%;
+        padding-right: 45%;
+        border: 2px solid #235B4E;
+        border-radius: 4px;
+        align-items: center;
+        background-color: transparent;
+    }
+    .section3{
+        padding-bottom: 0%;
+    }
+    .section3 .formulario{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 2%;
+    }
+    .section3 form{
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        border-radius: 4px;
+    }
+    .section3 h2{
+        color: #cc4a4a;
+        padding-top: 5%;
+        padding-left: 19%;
+        padding-right: 19%;
+    }
+    .section3 p{
+        color: darkgreen;
+        font-size: 30px;
+        padding-top: 1%;
+        padding-left: 40%;
+        padding-right:40%;
+    }
+    .consulta{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .kiloanual .heading{
+        padding-bottom: 2%;
+    } 
+}

@@ -1,0 +1,341 @@
+.container-info{
+    text-align: justify;
+}
+.container-form input:hover, .container-sec4 button:hover{
+    background-color: #235b4e91;
+    color: #FFFFFF;
+}
+.container-info .heading{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: hsl(107, 26%, 41%);
+    padding-bottom: 15px;
+}
+.container-info .paragraph{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}   
+label{
+    padding-left: 5%;
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.huellaco2{
+    background: #E5E5E5;
+    border-radius: 4px;
+    height: 40px;
+}
+.huella{
+    padding-top: 10px;
+    padding-left: 5%;
+}
+.calchuella{
+    box-sizing: border-box;
+    border: 1px solid #CDCDCD;
+    border-radius: 4px;
+}
+.btn{
+    padding-top: 15px;
+    padding-left: 5%;
+}
+.btn1{
+    box-sizing: border-box;
+    height: 40px;
+    border: 2px solid #235B4E;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: start;
+    color: #235B4E;
+}
+.titulores{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5A844E;
+}
+.container-trees{
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.container-tree{
+    border: 1px solid #CDCDCD;
+    border-radius: 4px;
+}
+@media (min-width: 300px)
+{
+    span{
+        font-size: 24px;
+    }
+    .container-info{
+        width: 90%;
+        padding-left: 8%;
+        padding-top: 3%;
+        padding-bottom: 4%;
+    }
+    .container-form{
+        padding-left: 5%;
+        width: 95%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .btn1{
+        width: 100%;
+    }
+    .huella{
+        width: 95%;
+    }
+    .huellaco2{
+        width: 100%;
+        justify-items: start;
+    }
+    .titulores{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .container-trees{
+        padding-top: 5%;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+    .container-tree{
+        padding-bottom: 5%;
+    }
+    .sections{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 3%;
+    }
+    .container-trees img{
+        padding-top: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
+        height: 190px;
+        width: 100%;
+    }
+    .name{
+        padding-top:5% ;
+    }
+    .costo{
+        padding-top:5% ;
+    }
+    .capacidad{
+        padding-top: 5%;
+    }
+    .container-sec3{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+    .container-sec3 .container-left .heading{
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 5%;
+    }
+    .container-sec3 .container-left .paragraph{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .container-sec3 .container-left .paragraph{
+        font-size: 12px;
+        font-weight: 300;
+        padding-bottom: 5%;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .container-sec3 .container-right{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5A844E;
+    }
+    .container-sec4{
+        padding-bottom: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .container-sec4 a{
+        width: 100%;
+        padding-top: 40%;
+    }
+    .container-sec4 button{
+        width: 100%;
+        border: 2px solid #235B4E;
+        border-radius: 4px;
+        color: #235B4E;
+        background-color: transparent;
+        align-items: center;
+    }
+    .ast{
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    span{
+        font-size: 24px;
+    }
+    .container-info{
+        width: 53%;
+        padding-left: 30%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+    .container-form{
+        padding-left: 20%;
+        padding-top: 2%;
+        width: 75%;
+    }
+    .btn{
+        width: 47%;
+    }
+    .btn1{
+        width: 100%;
+    }
+    .huella{
+        width: 95%;
+    }
+    .huellaco2{
+        width: 45%;
+        justify-items: start;
+    }
+    .container-trees{
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap ;
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+    .sections{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 3%;
+        width: 25%;
+        display: flex;
+        flex-flow: row wrap ;
+    }
+    .container-tree{
+        width: 400%;
+        height: 455px;
+    }
+    .container-trees img{
+        padding-top: 15%;
+        padding-left: 20%;
+        padding-right: 20%;
+        height: 190px;
+        width: 100%;
+    }
+    .name{
+        padding-top:10% ;
+    }
+    .costo{
+        padding-top:10% ;
+    }
+    .capacidad{
+        padding-top: 10%;
+    }
+    .container-sec3{
+        display: flex;
+        flex-flow: row nowrap;
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 0%;
+    }
+    .container-sec3 .container-left{
+        width: 50%;
+        padding-top: 7%;
+        padding-left: 20%;
+        padding-right: 12%;
+        padding-bottom: 0%;
+    }
+    .container-sec3 .container-left .heading{
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 5%;
+    }
+    .container-sec3 .container-left .paragraph{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .container-sec3 .container-right{
+        width: 50%;
+        display: flex;
+        flex-flow: row nowrap;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5A844E;
+        padding-top: 8%;
+        padding-left: 8%;
+        padding-right: 22%;
+        padding-bottom: 0%;
+    }
+    .ast{
+        display: block;
+        font-weight: 300;
+        font-size: 96px;
+        line-height: 90px;
+    }
+    .container-sec4{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+    }
+    .container-sec4 .container{
+        width: 50%;
+    }
+    .container-sec4 .but{
+        width: 50%;
+        padding-left: 11%;
+        padding-right: 19%;
+    }
+    .container-sec4 a{
+        width: 100%;
+        padding-top: 30%;
+    }
+    .container-sec4 button{
+        width: 100%;
+        border: 2px solid #235B4E;
+        border-radius: 4px;
+        color: #235B4E;
+        background-color: transparent;
+        align-items: center;
+    }
+}

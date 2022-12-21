@@ -1,0 +1,257 @@
+@media (min-width: 300px){
+    .secimg{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        width: 100%;
+    }
+    .secimg img{
+        width: 100%;
+        height: 10%;
+    }
+    .section1 .heading{
+        padding-left: 30%;
+        padding-top: 3%;
+        color: darkgreen;
+    }
+    .section2 .formulario{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 4%;
+    }
+    .section2 form{
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        border-radius: 4px;
+    }
+    .kiloanual{
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .kiloanual .heading{
+        padding-bottom: 2%;
+    } 
+    .text{
+        width: 100%;
+    }
+    .numkm{
+        padding-left: 3%;
+        padding-bottom: 2%;
+        padding-right: 3%;
+    }
+    .numkm .heading{
+        padding-bottom: 2%;
+    } 
+    .vehicleyear{
+        padding-top: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        width: 50%;
+    }
+    .vehicleyear .heading{
+        padding-bottom: 2%;
+    } 
+    .modelocarro{
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+    }
+    .modelocarro .heading{
+        padding-bottom: 2%;
+    } 
+    .vehiclemodel{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+    .vehiclemodel .heading{
+        padding-bottom: 2%;
+    } 
+    .vehiclesize{
+        padding-left: 3%;
+        padding-bottom: 2%;
+    }
+    .vehiclesize .heading{
+        padding-bottom: 2%;
+    } 
+    .txts{
+        width: 100%;
+        padding-left: 3%;
+        padding-bottom: 2%;
+    }
+    .txts .heading{
+        padding-bottom: 2%;
+    } 
+    .txts .number{
+        width: 100%;
+        padding-bottom: 2%;
+        padding-right: 3%;
+    } 
+    .btncom{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+    .btncom input{
+        width: 100%;
+    }
+    .section3{
+        padding-bottom: 5%;
+    }
+    .section3 .formulario{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 4%;
+    }
+    .section3 form{
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        border-radius: 4px;
+    }
+    .section3 h2{
+        color: #cc4a4a;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .section3 p{
+        color: darkgreen;
+        font-size: 30px;
+        padding-top: 1%;
+        padding-left: 40%;
+        padding-right:40%;
+    }
+}
+@media (min-width: 992px){
+    .secimg{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        width: 100%;
+    }
+    .secimg img{
+        width: 100%;
+        height: 300px;
+    }
+    .section1 .heading{
+        padding-left: 30%;
+        padding-top: 3%;
+        color: darkgreen;
+    }
+    .section2{
+        width: 100%;
+        padding-bottom: 4%;
+    }
+    .section2 .formulario{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 4%;
+    }
+    .section2 form{
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        border-radius: 4px;
+    }
+    .kiloanual{
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .kiloanual .heading{
+        padding-bottom: 2%;
+    } 
+    .text{
+        width: 40%;
+    }
+    .numkm{
+        padding-left: 3%;
+        padding-bottom: 2%;
+    }
+    .numkm .heading{
+        padding-bottom: 2%;
+    } 
+    .vehicleyear{
+        padding-top: 5%;
+        padding-left: 3%;
+        padding-bottom: 2%;
+        width: 30%;
+    }
+    .vehicleyear .heading{
+        padding-bottom: 2%;
+    } 
+    .modelocarro{
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .modelocarro .heading{
+        padding-bottom: 2%;
+    } 
+    .vehiclemodel{
+        padding-left: 3%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+    .vehiclemodel .heading{
+        padding-bottom: 2%;
+    } 
+    .model{
+        width: 60%;
+    }
+    .vehiclesize{
+        padding-left: 3%;
+        padding-bottom: 2%;
+    }
+    .vehiclesize .heading{
+        padding-bottom: 2%;
+    } 
+    .txts{
+        width: 100%;
+        padding-left: 3%;
+        padding-bottom: 2%;
+    }
+    .txts .heading{
+        padding-bottom: 2%;
+    } 
+    .txts .number{
+        width: 100%;
+        padding-bottom: 2%;
+    } 
+    .btncom{
+        padding-left: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .section3{
+        padding-bottom: 0%;
+    }
+    .section3 .formulario{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 2%;
+    }
+    .section3 form{
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        border-radius: 4px;
+    }
+    .section3 h2{
+        color: #cc4a4a;
+        padding-top: 5%;
+        padding-left: 19%;
+        padding-right: 19%;
+    }
+    .section3 p{
+        color: darkgreen;
+        font-size: 30px;
+        padding-top: 1%;
+        padding-left: 40%;
+        padding-right:40%;
+    }
+}

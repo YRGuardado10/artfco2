@@ -1,0 +1,137 @@
+.container-sec1 .heading{
+    height: 37px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5A844E;
+}
+.subheading{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.paragraph{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+.head{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.container-sec4 button:hover{
+    background-color: #235b4e91;
+    color: #FFFFFF;
+}
+@media (min-width: 300px){
+    .container-sec1{
+        width: 100%;
+        padding-top: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 4%;
+    }
+    .container-sec1 .subheading{
+        padding-bottom: 3%;
+    }
+    .grafica{
+        padding-left: 5%;
+        padding-right: 9%;
+        height: 20%;
+    }
+    .tags{
+        padding-left: 10%;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        color: #6F7271;
+    }
+    .container-sec3{
+        width: 100%;
+        padding-top: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 4%;
+    }
+    .container-sec4{
+        width: 100%;
+        padding-top: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 2%;
+    }
+    .container-sec4 button{
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        border-radius: 4px;
+        background-color: transparent;
+        width: 100%;
+    }
+    .btn1, .btn2, .btn2{
+        padding-bottom: 4%;
+    }
+}
+@media (min-width: 992px){
+    .container-sec1{
+        width: 100%;
+        padding-top: 4%;
+        padding-left: 30%;
+        padding-right: 53%;
+        padding-bottom: 4%;
+    }
+    .container-sec1 .subheading{
+        padding-bottom: 7%;
+    }
+    .grafica{
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 20%;
+    }
+    .tags{
+        display: flex;
+        flex-flow: row nowrap;
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        color: #6F7271;
+    }
+    .tags p{
+        padding-right: 7%;
+    }
+    .linea{
+        width: 100%;
+        border: 2px solid #CDCDCD;
+    }
+    .container-sec3{
+        width: 100%;
+        padding-top: 4%;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-bottom: 4%;
+    }
+    .container-sec4{
+        width: 100%;
+        padding-top: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 2%;
+    }
+    .btns{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .btn1, .btn2, .btn2{
+        padding-left: 7%;
+    }
+    .container-sec4 button{
+        box-sizing: border-box;
+        border: 1px solid #CDCDCD;
+        border-radius: 4px;
+        background-color: transparent;
+        width: 110%;
+    }
+}
